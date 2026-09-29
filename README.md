@@ -29,49 +29,49 @@ Nós escrevemos testes que verificam automaticamente a conformidade do código:
 
 #### 1. Definindo uma classe:
 ```python
-class NomeDaClasse:
-    def __init__(self, parametros):
+class ClassName:
+    def __init__(self, parameters):
         # Construtor da classe
-        self.campo1 = valor1
-        self.campo2 = valor2
+        self.field1 = value1
+        self.field2 = value2
         # ...
 
-    def metodo(self, parametros):
+    def method(self, parameters):
         # Definindo o método
         # ...
 
 # Exemplo:
 class Animal:
-    def __init__(self, nome, idade):
-        self.nome = nome
-        self.idade = idade
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-    def apresentar(self):
-        print(f"Olá, meu nome é {self.nome} e eu tenho {self.idade} anos.")
+    def introduce(self):
+        print(f"Olá, meu nome é {self.name} e eu tenho {self.age} anos.")
 ```
 #### 2. Criando instâncias de classes:
 ```python
-# Criação de instância da classe
-objeto = NomeDaClasse(argumentos)
+# Criação de uma instância da classe
+object = ClassName(arguments)
 
 # Exemplo:
-gato = Animal("Melvin", 3)
+cat = Animal("Melvin", 3)
 ```
 #### 3. Adicionando campos a uma classe:
 ```python
 # Adicionando novos campos a uma classe
-seuObjeto.novoCampo = valor
+yourObject.newField = value
 
 # Exemplo:
-gato.cor = "laranja"
+cat.color = "laranja"
 ```
 #### 4. Usando uma classe em um projeto:
 ```python
 # Usando métodos e campos de uma classe
-seuObjeto.metodo(argumentos) 
-valor = seuObjeto.campo
+yourObject.method(arguments) 
+value = yourObject.field
 
 # Exemplo:
-gato.apresentar()
-print(gato.cor)
+cat.introduce()
+print(cat.color)
 ```
