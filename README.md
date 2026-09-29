@@ -1,6 +1,6 @@
 # Informações sobre gamers
 
-Olá. Estamos construindo uma plataforma para jogos online e precisamos de ajuda para armazenar, processar e usar informações sobre nossos gamers. Este ano, daremos a vocês algumas tarefas para implementar; esta aqui é a primeira delas. Não se esqueça de olhar o arquivo README.md toda vez - nele, você encontrará requisitos detalhados e dicas!
+Olá! Estamos construindo uma plataforma para jogos online e precisamos de ajuda para armazenar, processar e usar informações sobre nossos gamers. Este ano, daremos a vocês algumas tarefas para implementar, esta aqui é a primeira delas. Não se esqueça de olhar semrpe o arquivo README.md (nele, você encontrará requisitos detalhados e dicas).
 
 ## TAREFA 1. Refinamento da classe Gamer e implementação da ferramenta para adicionar dados do usuário
 
